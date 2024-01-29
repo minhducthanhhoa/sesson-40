@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Đăng ký người dùng</h1>
+
+    <form id="registerForm" onsubmit="themNguoiDung(event)">
+        <label for="tenNguoiDung">Tên người dùng:</label>
+        <input type="text" id="tenNguoiDung" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="matKhau">Mật khẩu:</label>
+        <input type="password" id="matKhau" required>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+
+    <h2>Danh sách người dùng đã đăng ký:</h2>
+    <ul id="danhSachNguoiDung"></ul>
+</body>
+<script src="./bai5.js"></script>
+</html>

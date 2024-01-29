@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #userNameInput {
+          margin-bottom: 10px;
+        }
+    
+        #userNameDisplay {
+          margin-bottom: 10px;
+        }
+    
+        #addButton {
+          display: block;
+          margin-bottom: 10px;
+        }
+      </style>
+</head>
+<body>
+    <h1>Chương trình quản lý người dùng</h1>
+
+    <label for="userNameInput">Nhập tên người dùng:</label>
+    <input type="text" id="userNameInput">
+
+    <button id="addButton" onclick="themNguoiDung()">Thêm</button>
+
+    <div id="userNameDisplay"></div>
+
+    <button id="deleteButton" onclick="xoaNguoiDung()">Xóa</button>
+</body>
+<script src="./bai7.js"></script>
+</html>
